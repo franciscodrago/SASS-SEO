@@ -1,0 +1,23 @@
+.boton {
+    background-color: violet;
+    text-align: center;
+    color: pink;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+    &:hover {
+        filter: opacity(85%);
+    }
+}
+
+.botonRojo {
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+
+}
+.botonVerde {
+    @extend .boton;
+    background-color: green;
+    color: yellow;
+}
