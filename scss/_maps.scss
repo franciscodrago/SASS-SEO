@@ -5,14 +5,14 @@ $redes: (
 );
 
 .botonFacebook {
-    color: map-get($map: $redes, $key: Facebook );
+    color: map-get($redes, Facebook );
 }
 .botonInstagram {
-    color: map-get($map: $redes, $key: Instagram );
+    color: map-get($redes, Instagram );
 }
 
 .botonWhatsapp {
-    color: map-get($map: $redes, $key: Whatsapp );
+    color: map-get($redes, Whatsapp );
 }
 
 @for $i from 1 through 10 {
